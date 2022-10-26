@@ -54,8 +54,8 @@
                                 <div class="mb-3"><input ReadOnly class="form-control" type="text" value="{{$item->category}}" name="category"></div>
                                 <div class="mb-3"><input ReadOnly class="form-control" type="text" value="{{$item->item}}" name="item"></div>
                                 <div class="mb-3"><input class="form-control" type="number" value="{{$item->quantity}}" name="quantity" placeholder="Quantity" style="width: 108.323px;"></div>
-                                <div class="mb-3"><input class="form-control" type="number" value="{{$item->price}}" step="any" name="price" placeholder="Price" style="width: 108.323px;"></div>
-                                <div class="mb-3"><button class="btn btn-dark d-block w-100" type="submit">Apply Changes</button></div>
+                                <div class="mb-3"><input class="form-control" type="number" value="{{$item->price}}" step="any" name="price" placeholder="Price (R)" style="width: 108.323px;"></div>
+                                <div class="mb-3"><button class="btn btn-dark d-block w-100" type="submit">Add Amount</button></div>
 
                                 @if ($errors->any())
                                     <div class="alert alert-danger">
